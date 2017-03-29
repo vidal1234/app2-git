@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Segunda aplicacion</title>
+ 
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app1.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+ 
+    
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ </head>
+
+ <body onLoad="MM_preloadImages('imagenes/s72.jpg','imagenes/IPHONE 7.jpg')">
+ 
+    <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-black-btn-txt="Regresar" data-back-btn-theme="a">
+     <h1>Telefonia celular..</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Samsung s7</h1>
+       <div>
+        <p>Este es el s7: </p>
+        <br>
+       </div>
+       <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/s72.jpg',1)"><img src="imagenes/s7.jpg" width="300" height="168" id="Image16"></a> </div>
+      </div>
+     </div>
+ <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Iphone 7</h1>
+       <div>
+        <p>Este es el iphone 7: </p>
+        <br>
+       </div>
+       <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/IPHONE 7.jpg',1)"><img src="imagenes/IPHONE 72.jpg" width="225" height="225" id="Image40"></a> </div>
+      </div>
+     </div>    
+     <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Definicion</h2>
+       <p>Definicion de un telefono celular</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Historia</h2>
+       <p>Historia del telefono celular</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Clasificacion de los celulares</h2>
+       <p>Gama alta, media y baja</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Compañias telefonicas</h2>
+       <p>Compañias</p>
+       </a>
+     </li>
+     </ul>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/h2.jpg" alt="h2" title="h2" id="wows1_0"/></li>
+		<li><img src="data1/images/h3.jpg" alt="h3" title="h3" id="wows1_1"/></li>
+		<li><img src="data1/images/historia.jpg" alt="historia" title="historia" id="wows1_2"/></li>
+		<li><img src="data1/images/iphone_7.jpg" alt="IPHONE 7" title="IPHONE 7" id="wows1_3"/></li>
+		<li><img src="data1/images/iphone_72.jpg" alt="IPHONE 72" title="IPHONE 72" id="wows1_4"/></li>
+		<li><img src="data1/images/motog2.jpg" alt="motog2" title="motog2" id="wows1_5"/></li>
+		<li><img src="data1/images/motog4.jpg" alt="motog4" title="motog4" id="wows1_6"/></li>
+		<li><img src="data1/images/s7.jpg" alt="s7" title="s7" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/cel2.jpg" alt="wowslider" title="cel2" id="wows1_8"/></a></li>
+		<li><img src="data1/images/celular.jpg" alt="celular" title="celular" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="h2"><span><img src="data1/tooltips/h2.jpg" alt="h2"/>1</span></a>
+		<a href="#" title="h3"><span><img src="data1/tooltips/h3.jpg" alt="h3"/>2</span></a>
+		<a href="#" title="historia"><span><img src="data1/tooltips/historia.jpg" alt="historia"/>3</span></a>
+		<a href="#" title="IPHONE 7"><span><img src="data1/tooltips/iphone_7.jpg" alt="IPHONE 7"/>4</span></a>
+		<a href="#" title="IPHONE 72"><span><img src="data1/tooltips/iphone_72.jpg" alt="IPHONE 72"/>5</span></a>
+		<a href="#" title="motog2"><span><img src="data1/tooltips/motog2.jpg" alt="motog2"/>6</span></a>
+		<a href="#" title="motog4"><span><img src="data1/tooltips/motog4.jpg" alt="motog4"/>7</span></a>
+		<a href="#" title="s7"><span><img src="data1/tooltips/s7.jpg" alt="s7"/>8</span></a>
+		<a href="#" title="cel2"><span><img src="data1/tooltips/cel2.jpg" alt="cel2"/>9</span></a>
+		<a href="#" title="celular"><span><img src="data1/tooltips/celular.jpg" alt="celular"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+      <img src="imagenes/logo.png" width="46" height="46">
+     </div>
+     <div>
+      <h4>Aplicacion dos</h4>
+      <h4>Raul Vidal Santamaria Abrajan</h4>
+     </div>
+    </div>
+ </div>
+   </div>
+   
+   
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Definicion</h1>
+     </div>
+     <div data-role="content" align="center">
+     <div>
+         <h2>Se conoce como celular al dispositivo inalámbrico electrónico que está preparado para tener acceso a la telefonía celular, también conocida como móvil. Por lo general, un teléfono se compone de dos circuitos: un circuito de conversación que se encarga de la voz y un circuito de marcación, vinculado a la marcación y a las llamadas. Tanto las señales que parten desde el teléfono hacia la central como las que van desde la central al teléfono se transmiten por una misma línea de apenas dos hilos. El dispositivo encargado de combinar y separar ambas señales es la bobina híbrida o transformador híbrido, que funciona como un acoplador de potencia.</h2>
+     </div>
+     </div>
+     <div data-role="collapsible" data-content-theme="false">
+         <h1>Samsung s7</h1>
+       <div>
+         <p>s7:</p>
+         <br>
+       </div>
+     <div>
+       <img src="imagenes/s7.jpg" width="300" height="168">
+    </div>
+   </div>
+      
+  <div data-role="collapsible" data-content-theme="false">
+      <h1>Iphone 7</h1>
+       <div>
+        <p>Iphone 7:</p>
+        <br>
+       </div>
+       <div>
+       <img src="imagenes/IPHONE 7.jpg" width="300" height="168">
+       </div>
+   </div>
+       
+       
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Moto g 4 plus</h1>
+       <div>
+        <p>Moto g 4 plus:</p>
+        <br>
+       </div>
+       <div>
+       <img src="imagenes/motog4.jpg" width="300" height="168">
+       </div>
+   </div>
+       
+       
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+      <img src="imagenes/logo.png" width="46" height="46">
+     </div>
+     <div>
+      <h4>Aplicacion dos, RVSA</h4>
+     </div>
+    </div>
+ </div>
+   </div>
+    
+   
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Historia</h1>
+     </div>
+     <div data-role="content" align="center">
+       <div>
+         <h2>El 3 de abril de 1973, Martín Cooper directivo de Motorola realizó la primera llamada desde un teléfono móvil del proyecto DynaTAC 8000X desde una calle de Nueva York. precisamente a su mayor rival en el sector de telefonía: Joel Engel, de los Bell Labs de AT&T. El teléfono móvil o teléfono celular es un aparato indispensable en la actualidad; sin embargo su popularización ha sido un fenómeno muy reciente. En un principio el teléfono móvil solo podía ser usado en vehículos por su tamaño, reduciéndose posteriormente a una unidad portátil, y finalmente al tamaño de bolsillo que utilizamos hoy. Pero el teléfono en sí es solo una pequeña parte de un sistema de telefonía mayor.
+
+El sistema celular fue creado para satisfacer la demanda de comunicación móvil dentro de un espectro de radiofrecuencia limitado. Esta limitación es el factor original que motivó y sigue motivando el desarrollo del teléfono móvil, frente a otros de los varios factores como la duración de la batería o el tamaño del aparato. El sistema debe acomodar miles de usuarios dentro de un espectro reducido para transmitir cada vez más información. La transmisión de voz, pero actualmente también la demanda de imágenes, vídeos y acceso a internet, continúan aumentando los requisitos del sistema. En 1981 el fabricante Ericsson lanza el sistema NMT 450 (Nordic Mobile Telephony 450 MHz). Este sistema seguía utilizando canales de radio analógicos (frecuencias en torno a 450 MHz) con modulación en frecuencia (FM). Era el primer sistema del mundo de telefonía móvil tal como se entiende hasta hoy en día.
+
+Los equipos 1G pueden parecer algo aparatosos para los estándares actuales pero fueron un gran avance para su época, ya que podían ser trasladados y utilizados por una única persona.
+
+En 1986, Ericsson modernizó el sistema, llevándolo hasta el nivel NMT 900. Esta nueva versión funcionaba prácticamente igual que la anterior pero a frecuencias superiores (del orden de 900 MHz). Esto posibilitó dar servicio a un mayor número de usuarios y avanzar en la portabilidad de los terminales.
+
+Además del sistema NMT, en los 80 se desarrollaron otros sistemas de telefonía móvil tales como: AMPS (Advanced Mobile Phone System) en EE. UU. y TACS (Total Access Comunication System).
+
+El sistema TACS se utilizó en España con el nombre comercial de MoviLine. Estuvo en servicio hasta su extinción en 2003. El teléfono celular se remonta a los inicios de la Segunda Guerra Mundial, donde ya se veía que era necesaria la comunicacióna distancia, es por eso que la compañía Motorola creó un equipo llamado Handie Talkie H12-16, que es un equipo que permite el contacto con las tropas vía ondas de radio que en ese tiempo no superaban más de 600 Khz.  </h2></div>
+ </div> 
+  <div data-role="collapsible" data-content-theme="false">
+        <h1>Historia 1</h1>
+     <div>
+        <p>Historia:</p>
+        <br>
+     </div>
+     <div>
+       <img src="imagenes/historia.jpg" width="300" height="168">
+    </div>
+   </div>
+    
+ <div data-role="collapsible" data-content-theme="false">
+      <h1>Historia 2</h1>
+       <div>
+        <p>Historia:</p>
+        <br>
+       </div>
+       <div>
+       <img src="imagenes/h2.jpg" width="300" height="168">
+       </div>
+   </div>
+   <div data-role="collapsible" data-content-theme="false">
+      <h1>Historia 3</h1>
+      <div>
+        <p>Historia:</p>
+        <br>
+      </div>
+       <div>
+       <img src="imagenes/h3.jpg" width="300" height="168">
+       </div>
+   </div>
+       
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+      <img src="imagenes/logo.png" width="46" height="46">
+     </div>
+     <div>
+      <h4>Aplicacion dos, RVSA</h4>
+     </div>
+    </div>
+ </div>
+   </div>
+   
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1> Definicion de las gamas</h1>
+     </div>
+     <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+      <h1>Alta</h1>
+       <div>
+        <p>iphone 7</p>
+        <br>
+       </div>
+       <div> <h2>
+      Gama alta: La gama alta debe de tener no solo buenas características, sino algún plus, como serían las aplicaciones extras del Galaxy S4, el doble altavoz frontal del HTC One, las fantásticas cámaras de los buque insignia de Nokia y en fin, algo que marque la diferencia, ya que a la hora de rendir será similar a un gama media alta (al ir teóricamente muy bien los de ambos niveles.</h2></div>
+       <div>
+       <img src="imagenes/IPHONE 72.jpg" width="175" height="168">
+       </div>
+     </div>
+            
+      <div data-role="collapsible" data-content-theme="false">
+      <h1>Media</h1>
+       <div>
+        <p>Moto g4</p>
+        <br>
+    <img src="imagenes/motog4.jpg" width="300" height="168">
+      </div>
+      <DIV><h2>Gama media: La gama media es simplemente que tenga las características de lo mejor del año anterior.</h2>
+      </div>
+       </div>
+       <div>
+       </div>
+        
+      <div data-role="collapsible" data-content-theme="false">
+      <h1>Baja</h1>
+      <div>
+        <p>Moto g2</p>
+        <br>
+        </div>
+       <div>
+       <img src="imagenes/motog2.jpg" width="300" height="168">
+        </div>
+       <div>
+           <h2>Gama baja:
+             la gama baja está destinada a llamadas, mensajes, WhatsApp y algún juego. No se puede pedir mucho más ya que has pagado por un terminal que no te dará más.</h2>
+        </div>
+       </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+      <img src="imagenes/logo.png" width="46" height="46">
+     </div>
+     <div>
+      <h4>Aplicacion dos, RVSA</h4>
+     </div>
+    </div>
+ </div>
+   </div>
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>COMPAÑIAS  TELEFONICAS</h1>
+     <div data-role="content" align="center">
+       <div> <h2>
+     El inicio de la telefonía móvil en México se remonta a 1977, cuando se solicitó a la SCT de México (Secretaría de Comunicaciones y Transportes) una concesión para instalar, operar y explotar un sistema de radiotelefonía móvil en el Distrito Federal. Pero no fue hasta 1981 cuando se inició la comercialización de este servicio, el cual fue conocido por el público como Teléfono en el Auto, con el cual se logró, en un lapso de ocho meses, dar servicio a 600 usuarios.</h2>
+     </div>
+     </div>
+     </div>
+      <div data-role="collapsible" data-content-theme="false">
+      <h1>TELCEL</h1>
+    <div>
+    <img src="imagenes/telcel5.PNG" width="330" height="175">
+      </div>
+      <DIV><h2>Actualmente Telcel es un sistema telefónico móvil con infraestructura propia que opera en todo México. Telcel contaba en 1990 con 35 mil usuarios o líneas celulares; en 1992 se tenían 146,000 usuarios; en 1994, 306,000 usuarios; en 1997 cerró el año con un millón cien mil clientes; para 1998 se alcanzaron dos millones ciento diez mil usuarios; hasta diciembre de 1999 se contabilizaron con 5 cinco millones doscientos mil clientes. El crecimiento ha sido explosivo llevando a cerrar el año 2000 con diez millones quinientos mil; 2001 con dieciséis millones novecientos mil. Para 2002 Telcel lanza la red GSM en México, marcando la pauta hacia lo que serían los servicios de tercera generación. Telcel fue la primera compañía en México en usar la tecnología GSM. Actualmente Telcel es quien tiene la mayor cobertura a nivel nacional.</h2>
+      </DIV>
+   </div>
+        
+     
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>MOVISTAR</h1>
+       <div>
+       <img src="imagenes/Movistar-marca-valiosa1.PNG" width="300" height="168">
+       </div>
+       <div>
+           <h2>Desde el año 2000 (en su entrada al mercado Mexicano) y hasta 2005, su imagen institucional era el texto "Telefónica MoviStar". Ese mismo año, tras la adquisición de las operadoras móviles de BellSouth en Centro y Sudamérica, unifica todas las operaciones en los países con presencia y, crea una nueva imagen llamada solo MOVISTAR, con la característica M en colores Azul y Verde. Como campaña de posicionamiento a nivel mundial, el tema musical "Walking on Sunshine", remake de la canción interpretado por JUMP 5, original de Katrina and the Waves, fue la elegida por Telefónica. Durante el 2010, se realiza una ligera modificación de su logo, conservando únicamente el mismo en color verde y las letras en azul.</h2>
+       </div>
+   </div>
+      
+ <div data-role="collapsible" data-content-theme="false">
+      <h1>UNEFON</h1>
+       <div>
+       <img src="imagenes/unefon-soporte-tecnico-e1362024678113.png" width="300" height="168">
+    </div>
+       <div>
+           <h2>Unefón es una compañía mexicana de telefonía móvil propiedad de AT&T, la cual se dedica a ofrecer únicamente el esquema de cobro de prepago. Fue fundada por Ricardo Salinas Pliego en 1998 y perteneció a Grupo Salinas desde su fundación hasta 2014, cuando la marca fue adquirida por AT&T.1 Alcanzó más de 2.5 millones de suscriptores en el año 2006.[cita requerida]
+
+La red de Unefón fue principalmente CDMA desde su fundación, usando estaciones base no analógicas y posteriormente a partir del 15 de agosto de 2010 continuó únicamente con las estaciones GSM. Actualmente Unefón utiliza la misma infraestructura móvil que AT&T, la cual incluye su más reciente despliegue de la red 4G LTE.</h2>
+    </div>
+   </div>
+          
+           
+      <div data-role="collapsible" data-content-theme="false">
+      <h1>AT&T </h1>
+       <div>
+       <img src="imagenes/default.PNG" width="300" height="168">
+        </div>
+       <div>
+           <h2>AT&T (American Telephone and Telegraph) es una compañía estadounidense de telecomunicaciones.2 Provee servicios de voz, video, datos e Internet a negocios, clientes y agencias del gobierno.
+
+Durante su larga historia ha sido, en ocasiones, la compañía telefónica más grande del mundo y el operador de televisión por cable más grande de los Estados Unidos, llegando a ser clasificada como un monopolio. En 2005 se fusionó con su competidora SBC Communications..</h2>
+        </div>
+   </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+      <img src="imagenes/logo.png" width="46" height="46">
+     </div>
+     <div>
+      <h4>Aplicacion dos, RVSA</h4>
+     </div>
+    </div>
+ </div>
+   </div>
+           
+</body>
+</html>
+
